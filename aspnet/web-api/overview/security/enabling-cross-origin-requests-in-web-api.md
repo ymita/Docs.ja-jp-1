@@ -42,14 +42,14 @@ ms.lasthandoff: 11/10/2017
 
 ### <a name="what-is-same-origin"></a>「同じ発生元」とは何ですか。
 
-2 つの Url では、同じスキーム、ホスト、およびポートがある場合の原点が同じがあります。 ([RFC 6454](http://tools.ietf.org/html/rfc6454))
+2 つの Url では、同じスキーム、ホスト、およびポートがある場合のオリジンが同じがあります。 ([RFC 6454](http://tools.ietf.org/html/rfc6454))
 
-これら 2 つの Url は、原点が同じであります。
+これら 2 つの Url は、オリジンが同じであります。
 
 - `http://example.com/foo.html`
 - `http://example.com/bar.html`
 
-これらの Url は、2 つよりも前の別の原点をあります。
+これらの Url は、2 つよりも前の別のオリジンをあります。
 
 - `http://example.net`-別のドメイン
 - `http://example.com:9000/foo.html`-別のポート
